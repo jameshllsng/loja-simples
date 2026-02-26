@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf9f6;
+  color: #310c0c;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #310c0c;
+  color: #faf9f6;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu li a {
+  color: #faf9f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}

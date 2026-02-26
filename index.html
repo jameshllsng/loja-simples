@@ -5,48 +5,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loja Simples</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-
   <header>
     <h1>Loja Simples - Muito Foda!</h1>
+    <!-- <img src="/" alt="Logo"> Vou colocar a logo aqui, comentei só para o live server não ficar recarregando minha página-->
     <nav>
-      <!-- <img src="/" alt="Logo"> Vou colocar a logo aqui, comentei só para o live server não ficar recarregando minha página-->
-      <div class="menu">
-        <ul>
-          <li><a href="/index.html">Início</a></li>
-          <li><a href="#produtos">Produtos</a></li>
-          <li><a href="#contato">Contato</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-        </ul>
-      </div>
+      <ul class="menu">
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
     </nav>
+    <button class="carrinho" aria-label="Carrinho de compras">
+      🛒 <span class="carrinho-count">0</span>
+    </button>
   </header>
 
   <main class="produtos">
-    <article class="produto">
+    <article class="item-produto">
       <h2>Teclado Gamer</h2> <!-- O título do produto, será que eu uso h2? -->
-      <ul>
-        <li>Switches Cherry MX Blue</li>
-        <li>R$150,00</li>
-        <li>Frete grátis</li>
-      </ul>
+      <div class="info-produto">
+        <p class="descricao">Switches Cherry MX Blue</p>
+        <p class="preco">R$150,00</p>
+        <p class="frete">Frete grátis</p>
+      </div>
     </article>
 
-    <article>
-
+    <article class="item-produto">
+      <h2>Teclado Gamer</h2> <!-- O título do produto, será que eu uso h2? -->
+      <div class="info-produto">
+        <p class="descricao">Switches Cherry MX Blue</p>
+        <p class="preco">R$150,00</p>
+        <p class="frete">Frete grátis</p>
+      </div>
     </article>
 
-    <article>
-
+    <article class="item-produto">
+      <h2>Teclado Gamer</h2> <!-- O título do produto, será que eu uso h2? -->
+      <div class="info-produto">
+        <p class="descricao">Switches Cherry MX Blue</p>
+        <p class="preco">R$150,00</p>
+        <p class="frete">Frete grátis</p>
+      </div>
     </article>
   </main>
 
   <footer>
-
+    <p>© 2026 Loja Simples - São José do Rio Preto</p>
   </footer>
-
 </body>
 
 </html>
