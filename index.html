@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Simples</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Loja Simples - Muito Foda!</h1>
+    <!-- <img src="/" alt="Logo"> Vou colocar a logo aqui, comentei só para o live server não ficar recarregando minha página-->
+    <nav>
+      <ul class="menu">
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+    <button class="carrinho" aria-label="Carrinho de compras">
+      🛒 <span id="carrinho-count">0</span>
+    </button>
+  </header>
+
+  <main id="produtos" class="produtos">
+    <article data-id="1" data-name="teclado" class="item-produto">
+      <h2>Teclado Gamer</h2>
+      <div class="info-produto">
+        <p class="descricao">Switches Cherry MX Blue</p>
+        <p class="preco">R$150,00</p>
+        <p class="frete">Frete grátis</p>
+      </div>
+      <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+    </article>
+
+    <article data-id="2" data-name="fone" class="item-produto">
+      <h2>Fone Gamer</h2>
+      <div class="info-produto">
+        <p class="descricao">Switches Cherry MX Blue</p>
+        <p class="preco">R$150,00</p>
+        <p class="frete">Frete grátis</p>
+      </div>
+      <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+    </article>
+    <article data-id="3" data-name="mouse" class="item-produto">
+      <h2>Mouse Gamer</h2>
+      <div class="info-produto">
+        <p class="descricao">Switches Cherry MX Blue</p>
+        <p class="preco">R$150,00</p>
+        <p class="frete">Frete grátis</p>
+      </div>
+      <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+    </article>
+
+  </main>
+
+  <footer>
+    <div class="contato-sobre">
+      <div class="contato">
+        <h3 id="contato">Contato</h3>
+        <p>Telefone: (11) 9999-9999</p>
+        <p>Email: lmsandrincardoso@gmail.com</p>
+      </div>
+      <div class="sobre">
+        <h3 id="sobre">Sobre</h3>
+        <p>Loja Simples é uma loja de periféricos gamers localizada em São José do Rio Preto, fundada em 2026 por Luís Miguel Sandrin Cardoso. Nossa missão é oferecer produtos de alta qualidade a preços acessíveis, proporcionando uma experiência de compra fácil e agradável para nossos clientes.</p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Loja Simples - São José do Rio Preto</p>
+  </footer>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
